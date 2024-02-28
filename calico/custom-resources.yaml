@@ -16,7 +16,8 @@ spec:
       encapsulation: VXLANCrossSubnet
       natOutgoing: Enabled
       nodeSelector: all()
-
+  
+  registry: quay.io
 ---
 
 apiVersion: operator.tigera.io/v1
@@ -35,6 +36,7 @@ spec:
       encapsulation: VXLANCrossSubnet
       natOutgoing: Enabled
       nodeSelector: all()
+  registry: quay.io
 
 ---
 
